@@ -1,6 +1,6 @@
-:project-name: 
-:project-repo: https://github.com/rhtconsulting/
-:project-zip: https://github.com/rhtconsulting//archive/master.zip
+:project-name: miq-RedHat-CloudForms
+:project-repo: https://github.com/rhtconsulting/miq-RedHat-CloudForms
+:project-zip: https://github.com/rhtconsulting/miq-RedHat-CloudForms/archive/master.zip
 :rake-scripts-location:
 
 # {project-name}
@@ -45,8 +45,8 @@ make install
 
 2) Install {project-name} on appliance
 ----
-PROJECT_NAME=""
-PROJECT_ZIP="https://github.com/rhtconsulting//archive/master.zip"
+PROJECT_NAME="miq-RedHat-CloudForms"
+PROJECT_ZIP="https://github.com/rhtconsulting/miq-RedHat-CloudForms/archive/master.zip"
 cd /tmp
 wget -O ${PROJECT_NAME}.zip ${PROJECT_ZIP}
 unzip ${PROJECT_NAME}.zip
